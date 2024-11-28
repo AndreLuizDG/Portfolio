@@ -1,0 +1,33 @@
+.logo {
+    font-size: 1.5rem;
+
+}
+
+.logo::before {
+    content: "<";
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.logo::after {
+    content: "/>";
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Espaçamento entre os elementos */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px 20px; /* Ajuste o espaçamento interno */
+    height: 150px;
+  }
+  
+  .img_logo_fatec {
+    height: 75px;
+    margin-top: -16px;
+    margin-left: 0; /* Garantir que não haja margem lateral */
+  }
+  

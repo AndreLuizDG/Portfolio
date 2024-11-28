@@ -1,0 +1,54 @@
+.contatos {
+  margin-top: 12em;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.contatos h3{
+  text-align: center;
+  padding: 2.5em;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: co;
+  justify-content: center;
+  gap: 32px;
+}
+
+.social {
+  width: 64px;
+  height: 64px;
+  background-color: var(--icon-color);
+  font-size: 2rem;
+  transition: color 0.5s;
+}
+
+.social:hover {
+  color: var(--primary-color);
+}
+
+.social a{
+  display: flex;
+  justify-content: center;
+}
+
+.social:hover{
+  transition: 450ms;
+  animation: 0.5s sub alternate infinite;
+}
+
+.social a i{
+  padding-top: 0.5em ;
+}
+
+@keyframes sub {
+
+  from{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(-8px);
+  }
+  
+}
